@@ -43,10 +43,10 @@ body {
 
   .nav-list li a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
     padding: 5px;
     color: black;
-    font-weight: 600;
+    font-weight: bold;
     text-transform: capitalize;
   }
 
@@ -288,4 +288,54 @@ body {
     color: white;
     border: none;
     border-radius: 15px;
+}
+
+.inspirieren-section {
+    background-color: white;
+    padding: 40px;
+    margin: 10px;
+}
+
+.inspirieren-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.inspirieren-card {
+    width: 450px;
+    height: 240px;
+    border-radius: 7px;
+}
+
+.inspirieren-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%; 
+    border: none;
+    color: white;
+}
+
+.inspirieren-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.inspirieren-content {
+    margin: 10px 0 10px 0 ;
+    font-size: 14px;
+}
+
+.inspirieren-content p {
+    font-weight: 300;
+}
+
+.inspirieren-content span {
+    font-weight: bold;
 }
