@@ -139,3 +139,39 @@ body {
     background-color: rgb(52, 46, 87);
     opacity: .8;
   }
+
+  .dich-section {
+    padding: 30px;
+  }
+
+  .dich-heading-one {
+    font-size: 19px;
+    padding: 20px 0 20px 20px;
+  }
+
+  .dich-heading-two {
+    font-size: 19px;
+    padding: 0 0 0 20px;
+  }
+
+  .dich-card-container {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+  }
+
+  .dich-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    height: 120px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .dich-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 80%;
+  }
