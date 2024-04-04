@@ -240,6 +240,52 @@ body {
     font-weight: bold;
 }
 
+.ferie-section {
+    background-color: white;
+    padding: 40px;
+}
 
+.ferie-container {
+    background-image: url('https://a.travel-assets.com/travel-assets-manager/vrbex-onekey/DE-Hero-Image_Balje.jpg?impolicy=fcrop&w=1400&h=600&q=mediumHigh');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 80vh;
+}
 
-  
+.farie-content {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;   
+    padding: 40px;
+}
+
+.farie {
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.farie p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.farie button {
+    width: 170px;
+    background-color: rgb(52, 46, 87);
+    padding: 10px 0 10px 0;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
