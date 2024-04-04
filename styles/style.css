@@ -14,8 +14,8 @@ body {
 
   .header {
     display: flex;
-    justify-content: space-around;
-    padding: 13px 0 10px 0;
+    justify-content: space-between;
+    padding: 13px 20px 10px 20px;
     align-items: center;
   }
 
@@ -62,4 +62,24 @@ body {
 
   .uil {
     color: rgb(47, 185, 235)
+  }
+
+  .main-section {
+    background-image: url('../assets/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .main-content {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
   }
