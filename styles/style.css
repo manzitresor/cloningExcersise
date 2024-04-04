@@ -290,7 +290,8 @@ body {
     border-radius: 15px;
 }
 
-.inspirieren-section {
+.inspirieren-section,
+.ferienhauser-section {
     background-color: white;
     padding: 40px;
     margin: 10px;
@@ -337,5 +338,36 @@ body {
 }
 
 .inspirieren-content span {
+    font-weight: bold;
+}
+
+.ferienhauser-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.ferienhauser-card {
+    width: 450px;
+    height: 240px;
+    border-radius: 7px;
+}
+
+.ferienhauser-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.ferienhauser-content {
+    margin: 10px 0 10px 0 ;
+    font-size: 14px;
+}
+
+.ferienhauser-content p {
+    font-weight: 300;
+}
+
+.ferienhauser-content span {
     font-weight: bold;
 }
