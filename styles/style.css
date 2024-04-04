@@ -161,7 +161,7 @@ body {
   }
 
   .dich-card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 30%;
     height: 120px;
@@ -175,3 +175,71 @@ body {
     width: 100%;
     height: 80%;
   }
+
+  .dich-card span {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .finde-section {
+    margin: 20px 40px 20px 40px;
+  }
+
+  .finde-card-container {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .finde-card {
+    width: 250px;
+    height: 180px;
+    border-radius: 7px;
+  }
+
+  .finde-card-one {
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2022/11/04/house.jpeg?impolicy=fcrop&w=600&h=450&q=mediumHigh');
+  }
+
+  .finde-card-two {
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2022/11/04/condo.jpeg?impolicy=fcrop&w=400&h=300&q=medium');
+  }
+
+  .finde-card-three {
+    background-image: url('https://a.travel-assets.com/travel-assets-manager/vrbex-onekey/DE-Hero-Image_Balje.jpg?impolicy=fcrop&w=1400&h=600&q=mediumHigh')
+  }
+
+  .finde-card-four {
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2022/05/24/villa.jpg?impolicy=fcrop&w=600&h=450&q=mediumHigh')
+  }
+
+  .finde-card-one,
+  .finde-card-two,
+  .finde-card-three,
+  .finde-card-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%; 
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.finde-card-one,
+.finde-card-two,
+.finde-card-three,
+.finde-card-four p {
+    font-size: 17px;
+    padding: 0 0 10px 10px;
+    font-weight: bold;
+}
+
+
+
+  
