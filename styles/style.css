@@ -291,8 +291,7 @@ body {
 }
 
 .inspirieren-section,
-.ferienhauser-section,
-.mehr-section {
+.ferienhauser-section {
     background-color: white;
     padding: 40px;
     margin: 10px;
@@ -371,6 +370,10 @@ body {
 
 .ferienhauser-content span {
     font-weight: bold;
+}
+
+.mehr-section {
+  margin: 40px 30px 40px 40px;
 }
 
 .mehr-cards-container {
