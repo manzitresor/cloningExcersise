@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Lato:wght@300;400;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Lato:wght@300;400;700;900&display=swap'); */
 
 body {
     margin: 0;
@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
   }
 
   .header {
@@ -291,7 +291,8 @@ body {
 }
 
 .inspirieren-section,
-.ferienhauser-section {
+.ferienhauser-section,
+.mehr-section {
     background-color: white;
     padding: 40px;
     margin: 10px;
@@ -370,4 +371,38 @@ body {
 
 .ferienhauser-content span {
     font-weight: bold;
+}
+
+.mehr-cards-container {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.mehr-card {
+  width: 200px;
+  height: 100px;
+  border-radius: 7px;
+}
+
+.mehr-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px; 
+  border: none;
+  color: white;
+}
+
+.mehr-content h1 {
+  font-size: 14px;
+}
+
+.mehr-content p {
+  font-size: 13px;
+  font-weight: 300;
 }
